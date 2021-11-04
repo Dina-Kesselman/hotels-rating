@@ -45,7 +45,7 @@ def get_yelp_data_by_location(lat, long, hotels_dict):
 
         print(len(hotels_dict))
 
-if __name__ == '__main__':
+def get_yelp_data():
     hotels = np.array([['name', 'review_count', 'rating', 'lat', 'long', 'price']])
     hotels_dict = {}
 
